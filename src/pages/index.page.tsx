@@ -1,4 +1,8 @@
-import { ForCollegeContent, MacbookAir15Content } from '@/components/content';
+import {
+  ForCollegeContent,
+  Iphone14ProContent,
+  MacbookAir15Content,
+} from '@/components/content';
 import styled from '@emotion/styled';
 
 const MainPage = () => {
@@ -6,6 +10,7 @@ const MainPage = () => {
     <Container>
       <MacbookAir15Content />
       <ForCollegeContent />
+      <Iphone14ProContent />
     </Container>
   );
 };
